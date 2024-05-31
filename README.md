@@ -3,6 +3,7 @@
 ## TABLE OF CONTENT
 
 1. [REFLECTION](#reflection)
+2. [PROXIES AND ANNOTATIONS](#proxies-and-annotations)
 
 ## REFLECTION
 
@@ -49,3 +50,18 @@
 > 
 > By default, annotations cannot be seen by a reflections and to make annotation
 > available to reflection, you should provide a retention time.
+
+## PROXIES AND ANNOTATIONS
+
+> Proxy is an object that wraps another object and can add functionality to that object.
+> Considering object A and B. Instead of `A` communicating directly with `B`, there is a 
+> proxy covering `B` which will intercept the call and then delegate to `B` of perform
+> other options.
+> 
+> So the proxy is just an interceptor.
+> Proxies only works with interfaces.
+> 
+> To create proxy you use the `Proxy` class which is used to create a proxy over interfaces
+> which accepts a classLoader, an array of the class instance and an invocationHandler
+> 
+> With proxy, you can argument the functionality of the method
