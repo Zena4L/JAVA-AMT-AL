@@ -16,8 +16,8 @@ public class SpringMain {
             constructor.newInstance();
         }
 
-        if(a1.isAnnotationPresent(Aspect.class)){
-            Proxy.newProxyInstance(SpringMain.class, new Class[]{c1},)
-        }
+//        if(a1.isAnnotationPresent(Aspect.class)){
+//            Proxy.newProxyInstance(SpringMain.class, new Class[]{c1},)
+//        }
     }
 }
