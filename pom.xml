@@ -12,6 +12,7 @@
   <modules>
     <module>reflection</module>
     <module>proxies</module>
+      <module>executorService</module>
   </modules>
 
   <properties>

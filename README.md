@@ -4,6 +4,8 @@
 
 1. [REFLECTION](#reflection)
 2. [PROXIES AND ANNOTATIONS](#proxies-and-annotations)
+3. [EXECUTOR SERVICES](#executor-services)
+    - [Future, Runnable and Callable](#future-runnable-and-callable)
 
 ## REFLECTION
 
@@ -65,3 +67,35 @@
 > which accepts a classLoader, an array of the class instance and an invocationHandler
 > 
 > With proxy, you can argument the functionality of the method
+
+## EXECUTOR SERVICES
+
+> This is a high level framework of multithreading in java which inherits `Executor` interface
+> There are two(2) types of executor services namely:
+> 1. Direct Executor Service
+> 2. Scheduler Executor Service
+> 
+> To create a Executor service, simple call the static method `newFixedThreadPool(int nThread)`
+> of `Executors` class and provide the number of threads.
+> 
+> ```angular2html
+ > int n = Runtime.getRuntime().availableProcessors();
+>  ExecutorService service = Executors.newFixedThreadPool(n);
+> ```
+> 
+> The main thing a ThreadPool does is containing threads that take task and execute those
+> task.
+> You can now call the `excute` method of the service which accepts a `Runnable` or use
+> the `submit` method which returns a `Future`.
+> 
+> **NOTE: Always shutdown the executor service** with `service.shutdown();` on a finally block
+### Future, Runnable and Callable
+> **Future** : This is the return type you get back after submitting a task using `.submit()`
+> method of the `ExecutorService`.
+> You can now perform other actions with the future
+> 
+> **Runnable** : This is a void interface and hence returns nothing.
+> **Callable**: This is the interface that returns always generic type as compared to 
+> runnable that is a void. With callable, the type of the future correspond to the generic
+> value supplied to the callable.
+
