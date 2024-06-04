@@ -6,6 +6,7 @@
 2. [PROXIES AND ANNOTATIONS](#proxies-and-annotations)
 3. [EXECUTOR SERVICES](#executor-services)
     - [Future, Runnable and Callable](#future-runnable-and-callable)
+4. [FORKJOIN FRAMEWORK](#forkjoin-framework)
 
 ## REFLECTION
 
@@ -99,3 +100,9 @@
 > runnable that is a void. With callable, the type of the future correspond to the generic
 > value supplied to the callable.
 
+## FORKJOIN FRAMEWORK
+
+> This framework is for managing recursive actions. There are two kinds of task which are
+>  - recursive action : Returns no value, equivalent to Runnable
+>  - recursive task: Returns a value,  equivalent to Callable
+> Note that this is used for heavy task 

@@ -1,0 +1,7 @@
+
+T
+java:S2589"7Remove this expression which always evaluates to "true"(©ºî8ï£À—ş1
+X	java:S125"<This block of commented-out lines of code should be removed.(¼õ8šŠÌ—ş1
+L
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8ô£À—ş1
+L	java:S106*"+Replace this use of System.out by a logger.(Ìî¦üÿÿÿÿ8ø£À—ş1
