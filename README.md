@@ -7,6 +7,7 @@
 3. [EXECUTOR SERVICES](#executor-services)
     - [Future, Runnable and Callable](#future-runnable-and-callable)
 4. [FORKJOIN FRAMEWORK](#forkjoin-framework)
+5. [JAVA NIO](#java-nio)
 
 ## REFLECTION
 
@@ -106,3 +107,13 @@
 >  - recursive action : Returns no value, equivalent to Runnable
 >  - recursive task: Returns a value,  equivalent to Callable
 > Note that this is used for heavy task 
+
+## JAVA NIO
+
+> Non Blocking I/O
+> Starting with Java 7, there have been changes to working with Input and Output
+> 1. Path : Use the `Path` interface, and use the `get` factory method to create a path
+> 2. Files: use the `Files` interface
+> 
+> 
+>  

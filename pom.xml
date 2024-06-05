@@ -15,6 +15,7 @@
         <module>executorService</module>
         <module>forkJoin</module>
         <module>forkJoin</module>
+        <module>javaNIO</module>
     </modules>
 
     <properties>
