@@ -47,3 +47,15 @@ c
 javaNIO/pom.xml,b\c\bc0f2f3254bf834afc4bd79d9915237e67410207
 [
 +javaNIO/src/main/java/org/clement/Main.java,a\b\ab1c5f2626d5346a71c60d7b3ad53956ef316b90
+A
+streamAPI/pom.xml,d\f\dfb2fc1fc0107792276ad5df238a6d4ac702bae3
+]
+-streamAPI/src/main/java/org/clement/Main.java,9\4\941308074fb0ed9b7c59589f00c507d0a90a2b4b
+a
+1streamAPI/src/main/java/org/clement/Example2.java,2\c\2c25992ea6e5245046f50b21b29be7328f5e2c13
+a
+1streamAPI/src/main/java/org/clement/Example3.java,5\2\52dacd2ed4c75fedbe3e7c8009e35b7c32c77bb4
+`
+0streamAPI/src/main/java/org/clement/Sources.java,d\5\d538df756d4ddfa8514f7c239145541d7d3535d8
+e
+5streamAPI/src/main/java/org/clement/Intermediary.java,9\4\94b4fb0f622db6118428d8e3285662a0e46a2418

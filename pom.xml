@@ -16,6 +16,7 @@
         <module>forkJoin</module>
         <module>forkJoin</module>
         <module>javaNIO</module>
+        <module>streamAPI</module>
     </modules>
 
     <properties>

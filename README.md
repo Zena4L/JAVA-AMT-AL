@@ -8,6 +8,7 @@
     - [Future, Runnable and Callable](#future-runnable-and-callable)
 4. [FORKJOIN FRAMEWORK](#forkjoin-framework)
 5. [JAVA NIO](#java-nio)
+6. [STREAM API](#stream-api)
 
 ## REFLECTION
 
@@ -112,8 +113,37 @@
 
 > Non Blocking I/O
 > Starting with Java 7, there have been changes to working with Input and Output
-> 1. Path : Use the `Path` interface, and use the `get` factory method to create a path
+> 1. Path: Use the `Path` interface, and use the `get` factory method to create a path
 > 2. Files: use the `Files` interface
+
+## STREAM API
+
+> The streams always have two parts, i.e., 
+> 1. Source: where the value to be processed comes from
+> 2. Operation (Terminal): A stream needs at least one operation
+> 3. Intermediary Operations (This is optional): They can be as many as you want
+> When you call a terminal operator, the stream closes, and hence you cannot reuse a stream.
+> `source -> terminal`.
 > 
+> Between the source and the terminal.You can perform intermediary operations on the stream.
 > 
->  
+> _Source_: 
+> 1. Any `collection` can serve as a source and also `Stream.empty()` allows you to create a 
+> source with no elements.
+> 2. The factory method of the stream class can also be used to create a source. `Stream.of(...varags)`
+> 3. You can also use a generator. which is a static method `generate(Supplier<? extends T> s)`.
+> 
+> ```angular2html
+>   1. List<Integer> s0 = List.of(1,2,4,5);
+>   2. Stream<Integer> s1 = Stream.empty();
+>   3. Stream<String> s2 = Stream.of("one","two");
+>   4. Supplier<Integer> sup = () -> new Random().nextInt()
+>   5. Stream<Integer> s3 = Stream.generate(sup);
+> ```
+>
+> _Intermediary_: 
+> 
+
+
+
+
