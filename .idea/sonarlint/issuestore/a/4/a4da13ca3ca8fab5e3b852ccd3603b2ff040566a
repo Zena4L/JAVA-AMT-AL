@@ -1,0 +1,22 @@
+
+G	java:S106"+Replace this use of System.out by a logger.(À˜¹¯8Ş‘óÍ„2
+]
+java:S1612"@Replace this lambda with method reference 'System.out::println'.(„°Ë8ß‘óÍ„2
+G	java:S106"+Replace this use of System.out by a logger.(„°Ë8ß‘óÍ„2
+y
+java:S4276"\Refactor this code to use the more specialised Functional Interface 'ObjIntConsumer<String>'(ÊÚ¬ì8à‘óÍ„2
+G	java:S106"+Replace this use of System.out by a logger.(ÊÚ¬ì8à‘óÍ„2
+s
+java:S4276"QRefactor this code to use the more specialised Functional Interface 'IntSupplier'(«Çûÿÿÿÿ8à‘óÍ„2
+L	java:S106"+Replace this use of System.out by a logger.(ŸëËøÿÿÿÿ8à‘óÍ„2
+x
+java:S4276"[Refactor this code to use the more specialised Functional Interface 'ToIntFunction<String>'(¢úó´8à‘óÍ„2
+L	java:S106"+Replace this use of System.out by a logger.(µÏ…èùÿÿÿÿ8â‘óÍ„2
+G	java:S106"+Replace this use of System.out by a logger.(Éê—8â‘óÍ„2
+n
+java:S4276"RRefactor this code to use the more specialised Functional Interface 'IntPredicate'(àš´8â‘óÍ„2
+L	java:S106!"+Replace this use of System.out by a logger.(à¿öÑúÿÿÿÿ8ã‘óÍ„2
+F	java:S106%"+Replace this use of System.out by a logger.(Äş!8ã‘óÍ„2
+x
+java:S4276'"VRefactor this code to use the more specialised Functional Interface 'IntUnaryOperator'(®Ã‘ùøÿÿÿÿ8ã‘óÍ„2
+G	java:S106)"+Replace this use of System.out by a logger.(ñ®ñã8ä‘óÍ„2

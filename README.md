@@ -8,7 +8,8 @@
     - [Future, Runnable and Callable](#future-runnable-and-callable)
 4. [FORKJOIN FRAMEWORK](#forkjoin-framework)
 5. [JAVA NIO](#java-nio)
-6. [STREAM API](#stream-api)
+6. [UTIL.FUNCTION](#utilfunction)
+7. [STREAM API](#stream-api)
 
 ## REFLECTION
 
@@ -115,6 +116,28 @@
 > Starting with Java 7, there have been changes to working with Input and Output
 > 1. Path: Use the `Path` interface, and use the `get` factory method to create a path
 > 2. Files: use the `Files` interface
+
+## UTIL.FUNCTION
+
+> This is a functional interface provided by JAVA that is part of the util package.
+> They are borrowed form the functional style of programming.
+> 
+> _Functional Interface_: Lambda functions can only be written based on a functional interface
+> The functional interface needs to have **only one abstract method**. 
+> It can be annotated with `@FunctionalInterface`.
+> A functional interface is then implementated via a lambda expression.
+>
+> 1. `Consumer and BiConsumer` : It consumes a value but doesn't return a value. 
+> The consumer has an `.accept()` method which you provide the consumed value to.
+> Consumers are mostly common with the `ForEach()` method of a collection whiles BiConsumers are
+> used in the `forEach()` of a map
+> 2. `Supplier` : It doesn't receive a parameter but rather only returns a value.
+> It has a `get()` to retain the value it has to supply.
+> A typical use case of a supplier is throwing an exception in the optional interface
+> 3. `Function and BiFuntion`: It takes a value and transform and output it. It consumes and supplies at the same time.
+> 4. `Predicate and BiPredicate`: It accepts a value(s) and returns only a boolean
+> 5. `UniaryOperator and BinaryOperator`: The input and the output are always of the same type
+
 
 ## STREAM API
 

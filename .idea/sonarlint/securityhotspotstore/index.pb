@@ -59,3 +59,9 @@ a
 0streamAPI/src/main/java/org/clement/Sources.java,d\5\d538df756d4ddfa8514f7c239145541d7d3535d8
 e
 5streamAPI/src/main/java/org/clement/Intermediary.java,9\4\94b4fb0f622db6118428d8e3285662a0e46a2418
+@
+function/pom.xml,d\c\dc9ff7cbf998e3fe0c22375be8a60a0ef567750b
+\
+,function/src/main/java/org/clement/Main.java,a\4\a4da13ca3ca8fab5e3b852ccd3603b2ff040566a
+_
+/function/src/main/java/org/clement/Eatable.java,e\e\ee5049419023cc8042de7d92100b8b3a9dbcd370
