@@ -10,6 +10,7 @@
 5. [JAVA NIO](#java-nio)
 6. [UTIL.FUNCTION](#utilfunction)
 7. [STREAM API](#stream-api)
+8. [COLLECTORS](#collectors)
 
 ## REFLECTION
 
@@ -163,10 +164,26 @@
 >   4. Supplier<Integer> sup = () -> new Random().nextInt()
 >   5. Stream<Integer> s3 = Stream.generate(sup);
 > ```
->
-> _Intermediary_: 
-> 
 
+## COLLECTORS
+
+> Collectors are mainly use to collect elements from streams into a collection. It is a 
+> terminal operation of the streams api and hence it is used at the end of the stream.
+> The terminal operation is `.collect()` which takes a collector as an argument.
+> 
+> You don't implement your own collectors but rather use predefined collectors in `Collectors` class.
+> There is a possibility to collect to 
+> 1. List
+> 2. Sets
+> 3. Maps
+> 4. Any other collection
+> 
+> There is also a possibility to join the elements which applies concatenation to join all the elements
+> 1. no parameter will just concatenate
+> 2. specify a separator
+> 3. using prefix or suffix
+> 
+> NB: Always try to avoid downstream a stream API
 
 
 

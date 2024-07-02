@@ -13,9 +13,9 @@ public class Intermediary {
 //        List<String> list = List.of("abc3d", "qwer2t4y", "sof12t");
 
 
-        List<Integer> list = List.of(4, 2, 3, 1, 9, 5, 6, 2, 2, 1, 6, 7);
-
-        list.stream().skip(3).forEach(System.out::println);
+//        List<Integer> list = List.of(4, 2, 3, 1, 9, 5, 6, 2, 2, 1, 6, 7);
+//
+//        list.stream().skip(3).forEach(System.out::println);
 
 
         // using comparator

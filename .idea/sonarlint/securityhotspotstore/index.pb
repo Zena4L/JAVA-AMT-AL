@@ -67,3 +67,9 @@ _
 /function/src/main/java/org/clement/Eatable.java,e\e\ee5049419023cc8042de7d92100b8b3a9dbcd370
 \
 ,streamAPI/src/main/java/org/clement/Cat.java,9\7\971d6d3b102aec1fa24e16b08e91bcec5811dce2
+B
+collectors/pom.xml,b\a\ba663c51ed5178fe28268d1f32041513a0c3e2f7
+^
+.collectors/src/main/java/org/clement/Main.java,4\4\449d6e244d88d8d3251dd269fe94fa55486ffdca
+b
+2collectors/src/main/java/org/clement/Example2.java,5\c\5c4f6e7c840b2a9863e87090aa794b2fb2dcd7b2

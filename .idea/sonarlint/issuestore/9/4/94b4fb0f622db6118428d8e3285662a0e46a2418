@@ -1,6 +1,6 @@
 
 ]	java:S125"<This block of commented-out lines of code should be removed.(øŠ¯¼úÿÿÿÿ8ÓÈ½ò†2
-G	java:S106"+Replace this use of System.out by a logger.(¦º¬ª8µı¸ô†2
+X	java:S125"<This block of commented-out lines of code should be removed.(Àÿ™š8‘§•‡2
 ]	java:S125"<This block of commented-out lines of code should be removed.(Æ¾çóúÿÿÿÿ8ï·ô†2
 ]	java:S125"<This block of commented-out lines of code should be removed.(´Îèîùÿÿÿÿ8ÕÈ½ò†2
 ]	java:S125""<This block of commented-out lines of code should be removed.(ú½§õûÿÿÿÿ8ÕÈ½ò†2
@@ -9,6 +9,8 @@ G	java:S106"+Replace this use of System.out by a logger.(¦º¬ª8µı¸ô†2
 X	java:S125:"<This block of commented-out lines of code should be removed.(ùØÄ8ÕÈ½ò†2
 X	java:S125?"<This block of commented-out lines of code should be removed.(â¢ùÃ8ÕÈ½ò†2
 X	java:S125D"<This block of commented-out lines of code should be removed.(‹¯ì›8ÕÈ½ò†2
+C
+java:S1128"&Remove this unused import 'java.util'.(Î€ŒÙ8“§•‡2
 `
 java:S1128">Remove this unused import 'java.util.function.BinaryOperator'.(º÷ùÿÿÿÿ8ñ·ô†2
 U

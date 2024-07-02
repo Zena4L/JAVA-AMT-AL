@@ -18,6 +18,7 @@
         <module>javaNIO</module>
         <module>streamAPI</module>
         <module>function</module>
+        <module>collectors</module>
     </modules>
 
     <properties>

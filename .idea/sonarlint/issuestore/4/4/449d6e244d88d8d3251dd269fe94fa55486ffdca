@@ -1,0 +1,13 @@
+
+Z
+java:S1854"8Remove this useless assignment to local variable "list".(á£ð´ÿÿÿÿÿ8Ôˆø—‡2
+K
+java:S1481")Remove this unused "list" local variable.(á£ð´ÿÿÿÿÿ8Öˆø—‡2
+X	java:S125"<This block of commented-out lines of code should be removed.(‘Üã«8²õ—‡2
+]	java:S125'"<This block of commented-out lines of code should be removed.(Õ¦ºÆøÿÿÿÿ8×ˆø—‡2
+X	java:S1250"<This block of commented-out lines of code should be removed.(ñùô©8†Û÷—‡2
+]	java:S1255"<This block of commented-out lines of code should be removed.(çÉº’úÿÿÿÿ8×ˆø—‡2
+S
+java:S1128"1Remove this unused import 'java.io.Serializable'.(èãîÂÿÿÿÿÿ8Øˆø—‡2
+Z
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8Ùˆø—‡2
