@@ -11,6 +11,7 @@
 6. [UTIL.FUNCTION](#utilfunction)
 7. [STREAM API](#stream-api)
 8. [COLLECTORS](#collectors)
+9. [OPTIONAL](#optional)
 
 ## REFLECTION
 
@@ -185,5 +186,17 @@
 > 
 > NB: Always try to avoid downstream a stream API
 
+## OPTIONAL
 
-
+> This class introduced as an alternative to using the `null` value.
+> Which the optional class, instead of returning null, you return an object that can either be null or not.
+> 
+> To create an empty optional, you can always use the static method `.empty()`
+> For optional containing a value, you can use the static `.of(val)`. 
+> NB: `.of(null)` throws an exception.
+> 
+> using `.ofNUllable(val)` won't throw an exception if a null value is received.
+> 1. `.isPresent()` returns a boolean depending on the state
+> 2. `.get()` to get a value from an optional -> it only works if optional is not empty
+> 3. `or(), orElse(), orElseGet(),orElseThrow(), ifPresentOrElse()`: these allow us to specify an option
+> to preform in case the optional is empty.

@@ -73,3 +73,7 @@ B
 .collectors/src/main/java/org/clement/Main.java,4\4\449d6e244d88d8d3251dd269fe94fa55486ffdca
 b
 2collectors/src/main/java/org/clement/Example2.java,5\c\5c4f6e7c840b2a9863e87090aa794b2fb2dcd7b2
+@
+optional/pom.xml,2\5\252f20637a11c38ab36f2a24c332d1e497d20827
+\
+,optional/src/main/java/org/clement/Main.java,3\2\32a2eabc6cb078d68e8702181037b8249ce3aae4

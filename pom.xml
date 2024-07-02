@@ -19,6 +19,7 @@
         <module>streamAPI</module>
         <module>function</module>
         <module>collectors</module>
+        <module>optional</module>
     </modules>
 
     <properties>
