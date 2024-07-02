@@ -65,3 +65,5 @@ e
 ,function/src/main/java/org/clement/Main.java,a\4\a4da13ca3ca8fab5e3b852ccd3603b2ff040566a
 _
 /function/src/main/java/org/clement/Eatable.java,e\e\ee5049419023cc8042de7d92100b8b3a9dbcd370
+\
+,streamAPI/src/main/java/org/clement/Cat.java,9\7\971d6d3b102aec1fa24e16b08e91bcec5811dce2
