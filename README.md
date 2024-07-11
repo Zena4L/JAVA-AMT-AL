@@ -198,5 +198,7 @@
 > using `.ofNUllable(val)` won't throw an exception if a null value is received.
 > 1. `.isPresent()` returns a boolean depending on the state
 > 2. `.get()` to get a value from an optional -> it only works if optional is not empty
-> 3. `or(), orElse(), orElseGet(),orElseThrow(), ifPresentOrElse()`: these allow us to specify an option
+> 3. `or(), orElse(), orElseGet(),orElseThrow(), ifPresentOrElse(), ifPresent()`: these allow us to specify an option
 > to preform in case the optional is empty.
+> 4. `or(val)` can be to chain methods
+> 5. 

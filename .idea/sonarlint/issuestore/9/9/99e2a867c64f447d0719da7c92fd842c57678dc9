@@ -1,12 +1,7 @@
 
-g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8”ÿ­ðý1
-g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8”ÿ­ðý1
-o
-java:S2095"MUse try-with-resources or close this "ExecutorService" in a "finally" clause.(±‘µ—ÿÿÿÿÿ8»Ë¯ðý1
-f
-java:S2147"DCombine this catch with the one at line 21, which has the same body.(åþŒóùÿÿÿÿ8œÿ­ðý1
-{
-java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8œÿ­ðý1
-L
-java:S1481"*Remove this unused "value" local variable.(­…þèøÿÿÿÿ8†Èºðý1
-L	java:S106"+Replace this use of System.out by a logger.(öÚè—ÿÿÿÿÿ8žÿ­ðý1
+j
+java:S2095
+"MUse try-with-resources or close this "ExecutorService" in a "finally" clause.(Ÿ¤ä·8‘¶‡“Š2
+L	java:S106"+Replace this use of System.out by a logger.(ûÏ¦Ñøÿÿÿÿ8”¶‡“Š2
+X	java:S125"<This block of commented-out lines of code should be removed.(«µî8–ø¢“Š2
+G	java:S106"+Replace this use of System.out by a logger.(Î‹“¦8–¶‡“Š2

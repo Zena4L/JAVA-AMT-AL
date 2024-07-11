@@ -1,17 +1,0 @@
-
-X
-java:S1854"6Remove this useless assignment to local variable "s3".(É±¶şÿÿÿÿ8¶Š¿Ê„2
-X
-java:S1854"6Remove this useless assignment to local variable "s2".(¯“ß–ùÿÿÿÿ8·Š¿Ê„2
-X
-java:S1854"6Remove this useless assignment to local variable "s1".(Äî†æúÿÿÿÿ8·Š¿Ê„2
-X
-java:S1854"6Remove this useless assignment to local variable "s0".(¦ëƒ½ûÿÿÿÿ8·Š¿Ê„2
-I
-java:S1481"'Remove this unused "s0" local variable.(¦ëƒ½ûÿÿÿÿ8¸Š¿Ê„2
-I
-java:S1481"'Remove this unused "s1" local variable.(Äî†æúÿÿÿÿ8¸Š¿Ê„2
-I
-java:S1481"'Remove this unused "s2" local variable.(¯“ß–ùÿÿÿÿ8¹Š¿Ê„2
-I
-java:S1481"'Remove this unused "s3" local variable.(É±¶şÿÿÿÿ8½Š¿Ê„2

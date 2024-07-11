@@ -5,33 +5,24 @@ import java.util.concurrent.*;
 public class Main {
     public static void main(String[] args) {
 
-        ExecutorService service = null;
+        // Declaring ExecutorService outside try-with-resources block for proper scope
+        int nThreads = Runtime.getRuntime().availableProcessors();
+        ExecutorService service = Executors.newFixedThreadPool(nThreads);
 
         try {
-            int n = Runtime.getRuntime().availableProcessors();
-            service = Executors.newFixedThreadPool(n); //Threads
+            // Task to be executed asynchronously
+            Runnable r = () -> System.out.println(":) " + Thread.currentThread().getName());
 
-//            Runnable r = () -> System.out.println("hello" + " " + Thread.currentThread().getName()); // balls
-            Callable<String> c = () -> "Hello";
-//            service.execute(r); //throwing the balls into the pool
-            Future<String> f = service.submit(c);//recommended
-
-            try {
-                String value = f.get();
-            } catch (InterruptedException e) {
-                throw new RuntimeException(e);
-            } catch (ExecutionException e) {
-                throw new RuntimeException(e);
-            }
-
-
-            System.out.println("Another one" + " " + Thread.currentThread().getName());
+            // Execute the task
+//            service.execute(r);
+            service.submit(r);
+            // Main thread message
+            System.out.println(":( " + Thread.currentThread().getName());
         } finally {
-            if (service != null) {
-                service.shutdown();
-            }
-        }
+            // Shutdown the ExecutorService to release resources
+            service.shutdown();
 
+        }
 
     }
 }
