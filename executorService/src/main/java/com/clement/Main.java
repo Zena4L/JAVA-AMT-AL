@@ -11,13 +11,31 @@ public class Main {
 
         try {
             // Task to be executed asynchronously
-            Runnable r = () -> System.out.println(":) " + Thread.currentThread().getName());
+//            Runnable r = () -> System.out.println(":) " + Thread.currentThread().getName()); //method void
+
+//            Callable<Integer> c = () -> 1+2;//implementation is similar to a supplier
 
             // Execute the task
-//            service.execute(r);
-            service.submit(r);
+            // service.execute(r);
+//            Future<?> f = service.submit(r);
+
+//            Future<Integer> cf = service.submit(c);
+
+            //do stuffs whiles the task is running
+
+//            f.get(); // get ur task
+
+//            System.out.println(cf.get());
+
+            SummingNumbersCallable sum = new SummingNumbersCallable(2,5);
+
+            Future<Integer> submit = service.submit(sum);
+            System.out.println(submit.get());
+
             // Main thread message
             System.out.println(":( " + Thread.currentThread().getName());
+        } catch (InterruptedException | ExecutionException e) {
+            e.printStackTrace();
         } finally {
             // Shutdown the ExecutorService to release resources
             service.shutdown();
