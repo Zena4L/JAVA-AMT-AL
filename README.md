@@ -7,11 +7,14 @@
 3. [EXECUTOR SERVICES](#executor-services)
     - [Future, Runnable and Callable](#future-runnable-and-callable)
 4. [FORKJOIN FRAMEWORK](#forkjoin-framework)
-5. [JAVA NIO](#java-nio)
-6. [UTIL.FUNCTION](#utilfunction)
-7. [STREAM API](#stream-api)
-8. [COLLECTORS](#collectors)
-9. [OPTIONAL](#optional)
+5. [BLOCKING OBJECTS](#blocking-objects)
+   - [SEMAPHORE](#semaphore)
+   - [READWRITELOCK](#readwritelock)
+6. [JAVA NIO](#java-nio)
+7. [UTIL.FUNCTION](#utilfunction)
+8. [STREAM API](#stream-api)
+9. [COLLECTORS](#collectors)
+10. [OPTIONAL](#optional)
 
 ## REFLECTION
 
@@ -109,8 +112,36 @@
 
 > This framework is for managing recursive actions. There are two kinds of task which are
 >  - recursive action : Returns no value, equivalent to Runnable
->  - recursive task: Returns a value,  equivalent to Callable
-> Note that this is used for heavy task 
+>  - recursive task: Returns a value, equivalent to Callable
+> Note that this is used for a heavy task 
+
+## BLOCKING OBJECTS
+
+### SEMAPHORE
+
+>  This is a blocking object used to make synchronization on multiple threads for a block 
+> of code.
+> 
+> In synchronized block, only one active thread is allowed inside a block. To allow a max 
+> amount of thread inside a block, semaphore can be used to achieve that.
+> 
+> Semaphore allows you to specify the limited number of threads to be allowed in a lock.
+>
+> In a semaphore you need to 
+> -  specify the max number of threads i.e number of permits
+> - `semaphore.acquire()` is used to acquire the lock
+> - The threads will ran here.
+> - `semaphore.release();` to release a lock
+>
+> Since semaphore throws a check exception, the best practice is to wrap it in a try catch.
+> **Always make sure that `semaphore.release();` is placed in finally block.**
+> 
+> Semaphore has a second parameter to indicate a fair(order preserve) or unfair semaphore
+
+### READWRITELOCK
+
+> ReadWriteLock is also another type of object.
+> We synchronize the write operation with itself and the read operation.
 
 ## JAVA NIO
 
@@ -201,4 +232,5 @@
 > 3. `or(), orElse(), orElseGet(),orElseThrow(), ifPresentOrElse(), ifPresent()`: these allow us to specify an option
 > to preform in case the optional is empty.
 > 4. `or(val)` can be to chain methods
-> 5. 
+
+

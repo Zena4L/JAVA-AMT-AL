@@ -20,6 +20,7 @@
         <module>function</module>
         <module>collectors</module>
         <module>optional</module>
+        <module>blockingObjects</module>
     </modules>
 
     <properties>
